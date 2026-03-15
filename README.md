@@ -4,7 +4,8 @@
 
 **仓库地址**: https://github.com/seasky7c/legal-skills  
 **许可协议**: MIT  
-**维护者**: seasky7c
+**维护者**: seasky7c  
+**最后更新**: 2026-03-15
 
 ---
 
@@ -36,11 +37,289 @@
 
 ---
 
-## 📦 已收录技能
+## 📦 已收录技能（12 个）
 
-### ⚖️ 法律通用技能
+### 🔧 基础技能
 
-#### 1. Contract Review Pro - 专业合同审核
+#### 1. Agent Browser - 浏览器自动化
+
+**技能路径**: `skills/agent-browser/`  
+**版本**: 1.0.0  
+**状态**: ✅ 已收录
+
+**核心功能**:
+- 🌐 网页导航、表单填写、按钮点击
+- 📸 截图、数据提取、网页测试
+- 🔐 登录认证、会话管理
+- 🎥 视频录制、代理支持
+
+**使用场景**:
+- 打开网站、填写表单、点击按钮
+- 截取网页截图、提取网页数据
+- 测试 Web 应用、自动化浏览器任务
+
+**来源**: https://github.com/steipete/agent-browser
+
+---
+
+#### 2. Agent Reach - 全网平台访问
+
+**技能路径**: `skills/agent-reach/`  
+**版本**: 1.0.0  
+**状态**: ✅ 已收录
+
+**核心功能**:
+- 📱 配置 Twitter/X、Reddit、YouTube、GitHub 等平台访问
+- 📺 支持 Bilibili、小红书、抖音、LinkedIn、Boss 直聘
+- 📰 RSS 订阅管理
+- 🌐 任意网页访问
+
+**支持平台**:
+- 国际：Twitter/X, Reddit, YouTube, GitHub, LinkedIn
+- 国内：Bilibili, 小红书，抖音，Boss 直聘
+- 通用：RSS, 任意网页
+
+**使用场景**:
+- 配置平台访问工具
+- 检查可用平台
+- 启用平台频道
+
+---
+
+#### 3. Self-Improvement - 自我改进系统
+
+**技能路径**: `skills/self-improvement/`  
+**版本**: 1.0.0  
+**状态**: ✅ 已收录
+
+**核心功能**:
+- 📝 自动记录错误和学习
+- 📊 持续改进系统
+- 🔍 错误检测和学习提取
+- 📈 知识沉淀到项目记忆
+
+**使用场景**:
+- 命令或操作意外失败时
+- 用户纠正 AI 错误时
+- 发现更好的方法时
+- 外部 API 或工具失败时
+
+**文件结构**:
+```
+skills/self-improvement/
+├── .learnings/
+│   ├── ERRORS.md           # 错误记录
+│   ├── LEARNINGS.md        # 学习记录
+│   └── FEATURE_REQUESTS.md # 功能请求
+├── hooks/                   # Hook 系统
+└── scripts/                 # 工具脚本
+```
+
+---
+
+#### 4. Skill Vetter - 技能安全审查
+
+**技能路径**: `skills/skill-vetter/`  
+**版本**: 1.0.0  
+**状态**: ✅ 已收录
+
+**核心功能**:
+- 🔒 安全检查（红色标记、权限范围、可疑模式）
+- ✅ 安装前技能审查
+- 📊 信任评分系统
+- 🛡️ 权限分析
+
+**使用场景**:
+- 从 ClawHub、GitHub 等来源安装技能前
+- 检查技能权限范围
+- 识别可疑模式
+
+**信任评分**: 97/100
+
+---
+
+#### 5. Find Skills - 技能发现工具
+
+**技能路径**: `skills/find-skills/`  
+**版本**: 1.0.0  
+**状态**: ✅ 已收录
+
+**核心功能**:
+- 🔍 帮助用户发现和安装技能
+- 📦 技能生态系统查询
+- 💡 功能需求匹配
+
+**使用场景**:
+- "如何做到 X"
+- "找一个能做 X 的技能"
+- "有没有技能可以..."
+- 扩展能力需求
+
+---
+
+### 🔍 信息搜索
+
+#### 6. Baidu Search - 百度搜索
+
+**技能路径**: `skills/baidu-search/`  
+**版本**: 1.0.0  
+**状态**: ✅ 已收录
+
+**核心功能**:
+- 🔍 百度 AI 搜索引擎 (BDSE)
+- 📰 实时信息、文档、研究主题
+- 🇨🇳 中文内容优先
+
+**环境变量**: `BAIDU_API_KEY`
+
+**使用场景**:
+- 搜索实时信息
+- 查找文档资料
+- 研究课题调研
+
+---
+
+#### 7. China News Crawler - 中国新闻提取
+
+**技能路径**: `skills/china-news-crawler/`  
+**版本**: 1.0.0  
+**状态**: ✅ 已收录
+
+**核心功能**:
+- 📰 微信公众号文章提取
+- 📱 今日头条、网易、搜狐、腾讯新闻
+- 📄 输出 JSON 和 Markdown 格式
+- 🔗 自动提取标题、作者、正文、图片
+
+**支持平台**:
+- 微信公众号
+- 今日头条
+- 网易新闻
+- 搜狐新闻
+- 腾讯新闻
+
+**使用场景**:
+- 提取中国新闻内容
+- 抓取公众号文章
+- 获取新闻 JSON/Markdown
+
+**特点**: 独立可迁移，无外部依赖
+
+---
+
+#### 8. Deep Research - 深度研究
+
+**技能路径**: `skills/deep-research/`  
+**版本**: 1.0.0  
+**状态**: ✅ 已收录
+
+**核心功能**:
+- 🔬 深度主题研究
+- 📚 学术论文检索
+- 🔗 引用图谱分析
+- 📊 综合研究报告
+
+**使用场景**:
+- 研究、调查、探索主题
+- 学术论文调研
+- 深度分析报告
+
+---
+
+### 📄 办公办文
+
+#### 9. COCO-PPT - 智能 PPT 生成
+
+**技能路径**: `skills/coco-ppt/`  
+**版本**: 1.0.0  
+**状态**: ✅ 已收录
+
+**核心功能**:
+- 🎯 智能版式识别（10+ 种版式类型）
+- 🧠 内容 - 版式匹配（四维评分系统）
+- ⚡ 自动组装（一键生成完整 PPT）
+- 🔒 完全本地化（不依赖外部 API）
+
+**评分系统**:
+- 结构匹配 40%
+- 容量匹配 30%
+- 语义匹配 20%
+- 视觉匹配 10%
+
+**使用方法**:
+```bash
+python3 coco-ppt.py \
+  --template template.pptx \
+  --outline outline.md \
+  --output result.pptx
+```
+
+**依赖**:
+- python-pptx >= 0.6.21
+- Pillow >= 9.0.0
+- LibreOffice（可选，缩略图生成）
+
+**来源**: https://github.com/seasky7/coco-ppt
+
+---
+
+#### 10. PowerPoint PPTX - PPTX 操作
+
+**技能路径**: `skills/powerpoint-pptx/`  
+**版本**: 1.0.0  
+**状态**: ✅ 已收录
+
+**核心功能**:
+- 📊 创建、编辑 PowerPoint 演示文稿
+- 📐 幻灯片、版式、图表操作
+- 📝 批量处理
+- 🎨 设计模板应用
+
+**使用场景**:
+- 创建新演示文稿
+- 修改编辑内容
+- 处理版式和布局
+- 添加注释和演讲者备注
+
+**依赖**: python-pptx
+
+---
+
+#### 11. Obsidian Helper - Obsidian 笔记助手
+
+**技能路径**: `skills/obsidian-helper/`  
+**版本**: 1.5.0  
+**状态**: ✅ 已收录
+
+**核心功能**:
+- 📝 智能笔记创建和管理
+- 🔗 自动双向链接
+- 📌 自动 Callouts 标注
+- 📚 日记、周复盘、月复盘模板
+- 🗂️ 自动归档（整合 scrapling-web-extractor）
+
+**目录结构**:
+```
+~/Obsidian-Vault/
+├── 00-Inbox/          # 临时收集区
+├── 10-Articles/       # 文章
+├── 20-Notes/          # 永久笔记
+├── 30-Projects/       # 项目
+├── 40-Templates/      # 模板
+└── 99-Archives/       # 归档
+```
+
+**使用场景**:
+- 提到 obsidian、日记、笔记、知识库
+- capture、review、归档、链接
+
+**特点**: 遵循三条硬规矩（00_Inbox/AI/、追加式、白名单字段）
+
+---
+
+### ⚖️ 法律通用
+
+#### 12. Contract Review Pro - 专业合同审核
 
 **技能路径**: `skills/contract-review-pro/`  
 **版本**: v2.0  
@@ -69,48 +348,10 @@
 | 公司合同 | 股权转让合同、合伙合同 |
 | 劳动合同 | 劳动合同 |
 
-**使用方法**:
-```bash
-# 方式一：查询合同类型指引
-用户：买卖合同的审核要点是什么？
-
-# 方式二：审核具体合同
-用户：[上传合同.docx]
-Skill 会询问代表方、市场地位、审核深度等信息，然后生成审核报告
-```
-
 **技术架构**:
 - **数据层**: CSV 驱动（contract_types.csv, risk_templates.csv, review_checklists.csv 等）
 - **核心模块**: Python 脚本（review_config, contract_analyzer, risk_assessment 等）
 - **理论基础**: 《合同起草审查指南：三观四步法》等 5 本专业著作
-
-**依赖库**:
-```bash
-pip install pandas>=2.0.0
-pip install python-docx>=0.8.11
-pip install jieba>=0.42.1
-```
-
-**文件结构**:
-```
-skills/contract-review-pro/
-├── main.py                    # 主程序
-├── main_v2.py                 # v2 版本
-├── skill.json                 # 技能配置
-├── SKILL.md                   # 技能说明
-├── scripts/                   # 核心脚本
-│   ├── review_config.py       # 审核配置管理
-│   ├── contract_analyzer.py   # 合同分析器
-│   ├── risk_assessment.py     # 风险评估器
-│   ├── clause_review.py       # 条款审核器
-│   ├── document_generator.py  # 文档生成器
-│   └── ...
-├── data/                      # 数据文件
-│   ├── contract_types.csv     # 合同类型定义
-│   ├── risk_templates.csv     # 风险模板库
-│   └── review_checklists.csv  # 审查清单
-└── data_collection/           # 用户反馈数据
-```
 
 **来源**: https://github.com/cslawyer1985/contract-review-pro
 
@@ -123,22 +364,28 @@ skills/contract-review-pro/
 1. **克隆仓库**
 ```bash
 git clone https://github.com/seasky7c/legal-skills.git
+cd legal-skills
 ```
 
 2. **复制技能到 OpenClaw**
 ```bash
-cp -r legal-skills/skills/contract-review-pro ~/.openclaw/workspace/skills/
+# 复制单个技能
+cp -r skills/contract-review-pro ~/.openclaw/workspace/skills/
+
+# 或复制所有技能
+cp -r skills/* ~/.openclaw/workspace/skills/
 ```
 
 3. **安装依赖**
 ```bash
+# 以 contract-review-pro 为例
 cd ~/.openclaw/workspace/skills/contract-review-pro
-pip install -r requirements.txt  # 如有
+pip install pandas python-docx jieba --break-system-packages
 ```
 
 4. **使用技能**
 ```bash
-# 在 OpenClaw 中调用技能
+# 在 OpenClaw 中直接调用
 # 具体使用方法请参考各技能的 SKILL.md
 ```
 
@@ -181,9 +428,15 @@ pip install -r requirements.txt  # 如有
 
 ## 📝 更新日志
 
-### 2026-03-15
+### 2026-03-15 v1.0.0
 - ✅ 创建仓库
-- ✅ 收录 contract-review-pro v2.0（专业合同审核技能）
+- ✅ 收录 12 个核心技能：
+  - 基础技能：agent-browser, agent-reach, self-improvement, skill-vetter, find-skills
+  - 信息搜索：baidu-search, china-news-crawler, deep-research
+  - 办公办文：coco-ppt, powerpoint-pptx, obsidian-helper
+  - 法律通用：contract-review-pro
+- ✅ 添加完整 README 文档
+- ✅ 9 大类技能分类体系设计
 
 ---
 

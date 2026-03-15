@@ -1,0 +1,47 @@
+{
+  "title": "示例 JSON 内容",
+  "slides": [
+    {
+      "type": "title",
+      "title": "COCA-PPT 智能 PPT 生成",
+      "subtitle": "自动识别模板版式并匹配内容"
+    },
+    {
+      "type": "bullets",
+      "title": "主要功能",
+      "items": [
+        "智能版式识别",
+        "内容 - 版式自动匹配",
+        "一键生成 PPT",
+        "完全本地化运行"
+      ]
+    },
+    {
+      "type": "two_column",
+      "title": "技术优势",
+      "left": {
+        "title": "传统方法",
+        "content": "手动选择版式\n耗时费力\n容易出错"
+      },
+      "right": {
+        "title": "COCO-PPT",
+        "content": "自动匹配\n快速高效\n准确可靠"
+      }
+    },
+    {
+      "type": "quote",
+      "quote": "让 PPT 制作变得简单高效",
+      "author": "COCA-PPT 团队"
+    },
+    {
+      "type": "bullets",
+      "title": "使用场景",
+      "items": [
+        "商业演示",
+        "教育培训",
+        "学术报告",
+        "产品介绍"
+      ]
+    }
+  ]
+}
