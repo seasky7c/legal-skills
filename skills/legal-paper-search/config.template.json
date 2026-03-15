@@ -1,0 +1,22 @@
+{
+  "_comment": "Legal Paper Search - API Key 配置文件",
+  "_instructions": "将下方 API Key 替换为你自己申请的 Key，然后保存为 config.json",
+  
+  "semantic_scholar": {
+    "api_key": "在此粘贴 Semantic Scholar API Key",
+    "use_cache": true,
+    "_note": "获取地址：https://www.semanticscholar.org/product/api"
+  },
+  
+  "core": {
+    "api_key": "在此粘贴 CORE API Key",
+    "use_cache": true,
+    "_note": "获取地址：https://core.ac.uk/services/documentation/"
+  },
+  
+  "output": {
+    "default_format": "markdown",
+    "default_limit": 10,
+    "output_dir": "./output"
+  }
+}

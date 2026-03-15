@@ -1,0 +1,31 @@
+# Legal Paper Search - 依赖
+
+# HTTP 请求
+requests>=2.28.0
+
+# arXiv API
+arxiv>=2.1.0
+
+# 命令行界面
+click>=8.0.0
+
+# 数据处理
+pandas>=1.5.0
+
+# 日期处理
+python-dateutil>=2.8.0
+
+# 进度条
+tqdm>=4.64.0
+
+# JSON 处理（内置）
+# 标准库 json
+
+# Markdown 导出（内置模板）
+# 标准库
+
+# BibTeX 导出
+bibtexparser>=1.4.0
+
+# 缓存（可选）
+diskcache>=5.6.0
