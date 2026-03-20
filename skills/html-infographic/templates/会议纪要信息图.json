@@ -1,0 +1,277 @@
+{
+  "name": "会议纪要信息图",
+  "version": "1.0",
+  "created_at": "2026-03-20T19:44:00+08:00",
+  "description": "会议纪要风格信息图模板，适用于会议记录、决议摘要、行动项跟踪等场景",
+  
+  "color_system": {
+    "background": {
+      "type": "solid",
+      "color": "#FFFFFF",
+      "description": "纯白背景，简洁专业"
+    },
+    "primary": {
+      "color": "#1E40AF",
+      "hex": "#1E40AF",
+      "rgb": "30, 64, 175",
+      "description": "深蓝色，用于主标题、重要强调",
+      "usage": "主标题、关键指标数值、重要边框"
+    },
+    "secondary": {
+      "color": "#3B82F6",
+      "hex": "#3B82F6",
+      "rgb": "59, 130, 246",
+      "description": "亮蓝色，用于次级标题、图标",
+      "usage": "副标题、图标背景、装饰元素"
+    },
+    "accent": {
+      "color": "#F59E0B",
+      "hex": "#F59E0B",
+      "rgb": "245, 158, 11",
+      "description": "琥珀色，用于高亮、提醒",
+      "usage": "重点标注、警告提示、进度标记"
+    },
+    "text": {
+      "primary": "#1F2937",
+      "secondary": "#4B5563",
+      "tertiary": "#9CA3AF",
+      "description": "深灰/中灰/浅灰三级文字体系"
+    },
+    "cards": {
+      "background": "#FFFFFF",
+      "border": "#E5E7EB",
+      "shadow": "0 1px 3px rgba(0,0,0,0.1)"
+    }
+  },
+  
+  "layout": {
+    "page": {
+      "max_width": "1200px",
+      "margin": "40px",
+      "padding": "0",
+      "background": "#F3F4F6"
+    },
+    "header": {
+      "alignment": "left",
+      "padding": "32px 0",
+      "border_bottom": "2px solid #E5E7EB",
+      "margin_bottom": "32px"
+    },
+    "grid": {
+      "type": "flex",
+      "columns": "3",
+      "gap": "24px",
+      "responsive": {
+        "desktop": "3 columns",
+        "tablet": "2 columns",
+        "mobile": "1 column"
+      }
+    },
+    "sections": {
+      "spacing": "48px",
+      "padding": "24px"
+    }
+  },
+  
+  "typography": {
+    "font_family": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+    "hierarchy": {
+      "h1": {
+        "size": "32px",
+        "weight": "700",
+        "color": "#1F2937",
+        "line_height": "1.2",
+        "margin_bottom": "8px"
+      },
+      "h2": {
+        "size": "24px",
+        "weight": "600",
+        "color": "#1E40AF",
+        "line_height": "1.3",
+        "margin_bottom": "16px"
+      },
+      "h3": {
+        "size": "18px",
+        "weight": "600",
+        "color": "#1F2937",
+        "line_height": "1.4",
+        "margin_bottom": "12px"
+      },
+      "body": {
+        "size": "16px",
+        "weight": "400",
+        "color": "#4B5563",
+        "line_height": "1.6"
+      },
+      "caption": {
+        "size": "14px",
+        "weight": "400",
+        "color": "#9CA3AF",
+        "line_height": "1.5"
+      },
+      "metric_value": {
+        "size": "36px",
+        "weight": "700",
+        "color": "#1E40AF",
+        "line_height": "1.1"
+      },
+      "metric_label": {
+        "size": "14px",
+        "weight": "500",
+        "color": "#6B7280",
+        "line_height": "1.4"
+      }
+    }
+  },
+  
+  "components": {
+    "card": {
+      "background": "#FFFFFF",
+      "border_radius": "12px",
+      "border": "1px solid #E5E7EB",
+      "shadow": "0 1px 3px rgba(0,0,0,0.1)",
+      "padding": "24px",
+      "hover": {
+        "shadow": "0 4px 6px rgba(0,0,0,0.15)",
+        "transform": "translateY(-2px)",
+        "transition": "all 0.2s ease"
+      }
+    },
+    "metric_card": {
+      "background": "linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%)",
+      "text_color": "#FFFFFF",
+      "border_radius": "16px",
+      "padding": "32px 24px",
+      "value_size": "42px",
+      "value_weight": "700",
+      "label_size": "14px",
+      "label_weight": "500",
+      "label_opacity": "0.9"
+    },
+    "list_item": {
+      "padding": "12px 0",
+      "border_bottom": "1px solid #F3F4F6",
+      "icon_size": "20px",
+      "icon_color": "#3B82F6",
+      "text_size": "16px",
+      "text_color": "#4B5563"
+    },
+    "table": {
+      "header_background": "#F9FAFB",
+      "header_color": "#374151",
+      "header_weight": "600",
+      "row_border": "1px solid #E5E7EB",
+      "cell_padding": "12px 16px",
+      "hover_background": "#F9FAFB"
+    },
+    "tag": {
+      "background": "#DBEAFE",
+      "color": "#1E40AF",
+      "padding": "4px 12px",
+      "border_radius": "9999px",
+      "font_size": "12px",
+      "font_weight": "500"
+    },
+    "progress_bar": {
+      "background": "#E5E7EB",
+      "fill_gradient": "linear-gradient(90deg, #1E40AF 0%, #3B82F6 100%)",
+      "height": "8px",
+      "border_radius": "4px"
+    },
+    "icon": {
+      "size": "24px",
+      "color": "#3B82F6",
+      "background": "#DBEAFE",
+      "padding": "8px",
+      "border_radius": "8px"
+    }
+  },
+  
+  "visual_effects": {
+    "shadows": {
+      "sm": "0 1px 2px rgba(0,0,0,0.05)",
+      "md": "0 4px 6px rgba(0,0,0,0.1)",
+      "lg": "0 10px 15px rgba(0,0,0,0.1)",
+      "xl": "0 20px 25px rgba(0,0,0,0.15)"
+    },
+    "borders": {
+      "light": "1px solid #E5E7EB",
+      "medium": "2px solid #D1D5DB",
+      "accent": "2px solid #3B82F6"
+    },
+    "gradients": {
+      "primary": "linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%)",
+      "secondary": "linear-gradient(135deg, #60A5FA 0%, #93C5FD 100%)",
+      "accent": "linear-gradient(135deg, #F59E0B 0%, #FBBF24 100%)"
+    },
+    "animations": {
+      "hover_lift": "transform: translateY(-2px); transition: all 0.2s ease;",
+      "fade_in": "animation: fadeIn 0.3s ease-in;",
+      "slide_up": "animation: slideUp 0.4s ease-out;"
+    }
+  },
+  
+  "content_structure": {
+    "header": {
+      "elements": ["会议标题", "会议日期", "参会人员"],
+      "layout": "vertical",
+      "styling": "left-aligned, border-bottom separator"
+    },
+    "overview": {
+      "elements": ["关键指标卡片 (3-4 个)"],
+      "layout": "horizontal grid",
+      "styling": "gradient background cards with white text"
+    },
+    "main_content": {
+      "sections": [
+        {
+          "name": "会议议题",
+          "type": "list",
+          "styling": "numbered list with icon bullets"
+        },
+        {
+          "name": "决议事项",
+          "type": "cards",
+          "styling": "white cards with blue accent borders"
+        },
+        {
+          "name": "行动项",
+          "type": "table",
+          "styling": "table with assignee tags and progress bars"
+        },
+        {
+          "name": "待办跟踪",
+          "type": "list",
+          "styling": "checkbox list with status indicators"
+        }
+      ]
+    },
+    "footer": {
+      "elements": ["下次会议时间", "记录人", "生成时间"],
+      "layout": "horizontal",
+      "styling": "small text, light gray color"
+    }
+  },
+  
+  "css_template": "/* 会议纪要信息图 CSS 模板 */\n\n:root {\n  --primary: #1E40AF;\n  --secondary: #3B82F6;\n  --accent: #F59E0B;\n  --text-primary: #1F2937;\n  --text-secondary: #4B5563;\n  --text-tertiary: #9CA3AF;\n  --bg-page: #F3F4F6;\n  --bg-card: #FFFFFF;\n  --border: #E5E7EB;\n  --shadow: 0 1px 3px rgba(0,0,0,0.1);\n  --radius: 12px;\n}\n\nbody {\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n  background: var(--bg-page);\n  color: var(--text-primary);\n  line-height: 1.6;\n  margin: 0;\n  padding: 40px;\n}\n\n.container {\n  max-width: 1200px;\n  margin: 0 auto;\n  background: var(--bg-card);\n  border-radius: var(--radius);\n  box-shadow: var(--shadow);\n  padding: 40px;\n}\n\n.header {\n  border-bottom: 2px solid var(--border);\n  padding-bottom: 32px;\n  margin-bottom: 32px;\n}\n\n.header h1 {\n  font-size: 32px;\n  font-weight: 700;\n  color: var(--text-primary);\n  margin-bottom: 8px;\n}\n\n.metrics-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n  gap: 24px;\n  margin-bottom: 40px;\n}\n\n.metric-card {\n  background: linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%);\n  color: white;\n  border-radius: 16px;\n  padding: 32px 24px;\n}\n\n.metric-value {\n  font-size: 42px;\n  font-weight: 700;\n  margin-bottom: 8px;\n}\n\n.metric-label {\n  font-size: 14px;\n  font-weight: 500;\n  opacity: 0.9;\n}\n\n.content-section {\n  margin-bottom: 40px;\n}\n\n.content-section h2 {\n  font-size: 24px;\n  font-weight: 600;\n  color: var(--primary);\n  margin-bottom: 20px;\n}\n\n.card {\n  background: var(--bg-card);\n  border: 1px solid var(--border);\n  border-radius: var(--radius);\n  padding: 24px;\n  box-shadow: var(--shadow);\n  transition: all 0.2s ease;\n}\n\n.card:hover {\n  box-shadow: 0 4px 6px rgba(0,0,0,0.15);\n  transform: translateY(-2px);\n}\n\n.tag {\n  display: inline-block;\n  background: #DBEAFE;\n  color: var(--primary);\n  padding: 4px 12px;\n  border-radius: 9999px;\n  font-size: 12px;\n  font-weight: 500;\n}\n\n.progress-bar {\n  background: #E5E7EB;\n  border-radius: 4px;\n  height: 8px;\n  overflow: hidden;\n}\n\n.progress-fill {\n  height: 100%;\n  background: linear-gradient(90deg, #1E40AF 0%, #3B82F6 100%);\n  border-radius: 4px;\n}\n\n@media (max-width: 768px) {\n  body { padding: 20px; }\n  .container { padding: 24px; }\n  .metrics-grid { grid-template-columns: 1fr; }\n  .header h1 { font-size: 24px; }\n}",
+  
+  "usage_examples": [
+    {
+      "scenario": "周例会纪要",
+      "metrics": ["参会人数", "决议数量", "行动项", "完成率"],
+      "sections": ["本周议题", "重要决议", "行动项分配", "下周计划"]
+    },
+    {
+      "scenario": "项目评审会",
+      "metrics": ["项目进度", "预算使用", "风险数量", "问题关闭率"],
+      "sections": ["项目概况", "评审意见", "风险清单", "后续行动"]
+    },
+    {
+      "scenario": "决策会议",
+      "metrics": ["决策事项", "通过数量", "待议数量", "执行率"],
+      "sections": ["决策背景", "讨论要点", "最终决议", "责任分工"]
+    }
+  ],
+  
+  "ai_generation_prompt": "请根据以下会议内容生成 HTML 信息图，使用会议纪要风格模板：\n\n【设计要求】\n- 背景：浅灰色 (#F3F4F6) 页面，白色卡片内容区\n- 主色：深蓝色 (#1E40AF) 用于标题和强调\n- 辅色：亮蓝色 (#3B82F6) 用于图标和装饰\n- 强调色：琥珀色 (#F59E0B) 用于高亮提醒\n- 卡片：白色背景，12px 圆角，细边框，轻微阴影\n- 指标卡片：蓝紫渐变背景，白色文字，大字号数值\n- 字体：系统字体，层级清晰 (32px/24px/18px/16px)\n- 布局：3 列响应式网格，移动端单列\n- 交互：卡片悬浮上移 2px，阴影加深\n\n【内容结构】\n1. 页头：会议标题 + 日期 + 参会人员\n2. 概览：3-4 个关键指标卡片（渐变背景）\n3. 主体：会议议题（列表）、决议事项（卡片）、行动项（表格 + 进度条）\n4. 页脚：下次会议时间 + 记录人信息\n\n请生成完整 HTML，所有 CSS 内联。"
+}
